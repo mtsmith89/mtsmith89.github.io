@@ -5,7 +5,7 @@
     <head>
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <title>About Me</title>
+        <title>Contact Me</title>
     </head>
 
     <body>
@@ -16,30 +16,27 @@
                         <div class="nav-collapse">
                             <ul class="nav">
                                 <li class="teal"><h1><strong>Travis Smith</strong></h1></li>
-                                <li><a id="a2" href="contact.html">Contact</a></li>
+                                <li class="active"><a id="a2" href="#">Contact</a></li>
                                 <li><a href="portfolio.html">Portfolio</a></li>
-                                <li class="active"><a href="#">About</a></li>
+                                <li><a href="index.html">About</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </nav>
         </div>
-    
         <div class="contentarea">
          <div class="mainarea">
-            <h1 class="h1t">About Me</h1>
+            <h1 class="h1t">Contact</h1>
             <hr>
-            <img class="imgp" src="assets/images/profile.jpg" alt="Travis Smith" style="float: left; width: 200px;">
-            <p class="pa">
-                    I balance, I weave, I dodge, I frolic, and my bills are all paid. On weekends, to let off steam, I participate in full-contact origami. Years ago I discovered the meaning of life but forgot to write it down. I have made extraordinary four course meals using only a mouli and a toaster oven. I breed prizewinning clams. I have won bullfights in San Juan, cliff-diving competitions in Sri Lanka, and spelling bees at the Kremlin. I have played Hamlet, I have performed open-heart surgery, and I have spoken with Elvis.
-            </p>
-            <br>
-            <p>
-                    I can hurl tennis rackets at small moving objects with deadly accuracy. I once read Paradise Lost, Moby Dick, and David Copperfield in one day and still had time to refurbish an entire dining room that evening. I know the exact location of every food item in the supermarket. I have performed several covert operations for the CIA. I sleep once a week; when I do sleep, I sleep in a chair. While on vacation in Canada, I successfully negotiated with a group of terrorists who had seized a small bakery. The laws of physics do not apply to me.
-            </p>
+            <form>
+                <p>Name</p> <input class="text" type="text" name="wholename" placeholder="  John Smith">
+                <p>Email</p> <input class="text" type="email" name="email" placeholder="  example@gmail.com">
+                <p>Message</p> <textarea class="message" name="message"></textarea><br><br>
+                <button class="button" type="button">Submit</button>
+            </form>
          </div>
-         </div>
+
           <aside>
              <h2>Connect with Me</h2>
              <hr>
@@ -48,6 +45,7 @@
              <a href="https://www.linkedin.com/in/michael-travis-smith-848920a1" target="_blank"><img src="assets/images/linkedin.png" alt="LinkedIn" style="width:80px;"></a>
              <a href="https://stackoverflow.com/users/9340885/travis-smith" target="_blank"><img src="assets/images/stackoverflow.png" alt="StackOverflow" style="width:80px;"></a>
           </aside>
+        </div>
 
         <footer class="fixedbottom">
             <p class="pf">&copy; Copyright 2018 Travis Smith</p>
