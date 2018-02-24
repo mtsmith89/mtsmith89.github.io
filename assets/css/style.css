@@ -68,9 +68,10 @@ li a {
     padding: 30px;
     margin-top: 10px;
     text-decoration: none;
+    transition: color 1s, background-color 1s;
 }
 
-li #a2 {
+li .a2 {
     display: block;
     color: #777777;
     top: 50%;
@@ -84,11 +85,6 @@ li #a2 {
 }
 
 li a:hover {
-    background-color: #4aaaa5;
-    color: white;
-}
-
-li a2:hover {
     background-color: #4aaaa5;
     color: white;
 }
@@ -226,4 +222,12 @@ p {
 img {
     margin-left: 1px;
     margin-right: 1px;
+}
+
+li a:active {
+    color: Crimson;
+}
+
+li a:focus {
+    border: 2px solid aqua;
 }
