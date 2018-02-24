@@ -29,10 +29,11 @@
          <div class="mainarea">
             <h1 class="h1t">Contact</h1>
             <hr>
-            <form>
-                <p>Name</p> <input class="text" type="text" name="wholename" placeholder="  John Smith">
-                <p>Email</p> <input class="text" type="email" name="email" placeholder="  example@gmail.com">
-                <p>Message</p> <textarea class="message" name="message"></textarea><br><br>
+            <form action="mailto:someone@email.com" methon="GET">
+                <p>Name</p> <input class="text" type="text" name="Subject" placeholder="  John Smith">
+                <p>Email</p> <input class="text" type="email" name="CC" placeholder="  example@gmail.com">
+                <p>Message</p> <textarea class="message" name="body"></textarea><br><br>
+                <input type="submit" class="button" value="Send" />
                 <button class="button" type="button">Submit</button>
             </form>
          </div>
